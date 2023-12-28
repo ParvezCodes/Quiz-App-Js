@@ -94,7 +94,7 @@ body {
 
 .info__box .info__list .info span {
   font-weight: 600;
-  color: var(--blue);
+  color: #016dcb;
 }
 
 .info__box .buttons {
