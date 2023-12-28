@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2d83fcf070.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>QuizApp</title>
+  </head>
+  <body>
+    <div class="start__btn">
+      <button>Start Quiz</button>
+    </div>
+
+    <div class="info__box">
+      <div class="info__title">
+        <span>Take Quiz</span>
+      </div>
+      <div class="info__list">
+        <div class="info">
+          You will have only <span>10 seconds</span> per question
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="exit">Exit</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz__box">
+      <header>
+        <div class="title">Quiz App</div>
+        <div class="timer">
+          <div class="time__text">Time</div>
+          <div class="timer__sec">10</div>
+        </div>
+        <div class="time__line"></div>
+      </header>
+      <section>
+        <div class="quiz__text"></div>
+        <div class="option__list"></div>
+      </section>
+
+      <!-- Quiz box footer -->
+      <footer>
+        <div class="total__que"></div>
+        <button class="next__btn">Next Que</button>
+      </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fa-solid fa-trophy"></i>
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text"></div>
+      <div class="buttons">
+        <button class="restart">Replay</button>
+        <button class="exit">Quit</button>
+      </div>
+    </div>
+
+    <script src="js/qustions.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
